@@ -31,7 +31,7 @@ node {
 	   sh 'mvn deploy'
     }
 	     
-    stage('Java version') {
+	stage('Java version') {
 	  sh 'java --version'
     } 
      stage('Jenkins version') {
